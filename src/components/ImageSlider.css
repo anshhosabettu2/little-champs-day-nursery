@@ -1,0 +1,36 @@
+/* Swiper navigation arrows */
+.nursery-slider .swiper-button-next,
+.nursery-slider .swiper-button-prev {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+    color: #fff;
+ 
+}
+
+.nursery-slider .swiper-button-next::after,
+.nursery-slider .swiper-button-prev::after {
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+/* Pagination */
+.nursery-slider .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  opacity: 0.7;
+}
+
+.nursery-slider .swiper-pagination-bullet-active {
+  width: 22px;
+  border-radius: 10px;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .nursery-slider .swiper-button-next,
+  .nursery-slider .swiper-button-prev {
+    display: none;
+  }
+}
